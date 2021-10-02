@@ -21,6 +21,9 @@ app.use(bodyParser.urlencoded({extended:    true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname+"/public"));
 
+// test comment
+
+
 // passport configuration
 app.use(require("express-session")({
     // it is the string used to hash the password with
