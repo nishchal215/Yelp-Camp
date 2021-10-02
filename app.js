@@ -22,7 +22,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname+"/public"));
 
 // test comment
-
+// new test comment
 
 // passport configuration
 app.use(require("express-session")({
