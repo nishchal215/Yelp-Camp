@@ -1,6 +1,6 @@
 var mongoose=require("mongoose");
 
-// Schema setup
+// Schema setup for user details
 var campgroundSchema = new mongoose.Schema({
     name:String,
     image:String,
