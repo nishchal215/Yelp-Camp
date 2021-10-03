@@ -1,6 +1,6 @@
 const Campground = require('../models/campground'),
       Comment    = require('../models/comment');
-
+// isLoggedIn function for logging in
 function isLoggedIn(req,res,next){
     if(req.isAuthenticated()){
         return next();
